@@ -39,7 +39,7 @@ function displayWeatherData(data) {
   if(temperature < 10 || temperature > 10 && temperature < 19) {
     whatToWear = `<h2>I think you should bring a coat today as it is ${temperature} &#x2103 today</h2>
     <img class="cold" src="cold.jpg">`
-    temp = `<img class="tempImg" src="cold Emoji.png"`
+    temp = `<img class="tempImg" src="Cold Emoji.png"`
 
 } else if(temperature > 19) {
     whatToWear = `<h2>I think you should wear shorts today as it is ${temperature} &#x2103 today </h2>
