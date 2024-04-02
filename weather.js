@@ -23,7 +23,7 @@ async function getWeather() {
     displayWeatherData(data);
   } catch (error) {
     console.error('Error fetching weather data:', error.message);
-    weatherDataDiv.textContent = 'Error fetching weather data. Please try again later.';
+    weatherDataDiv.textContent = 'Check city that you have put in is correct.';
   }
 }
 
